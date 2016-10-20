@@ -43,7 +43,7 @@ class LAEditor extends Command
 		try {
 			$this->info('LaraAdmin Code Editor installation started...');
 			
-			$from = base_path('vendor/dwij/laraeditor/src/Installs');
+			$from = base_path('vendor/dwij/laeditor/src/Installs');
 			$to = base_path();
 			
 			$this->info('from: '.$from." to: ".$to);
